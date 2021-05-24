@@ -55,3 +55,15 @@ def current_working_directory():
     return os.getcwd()
 print(current_working_directory())
 
+
+# Lambda's work on the base of lambda arguments: expressions and in this case we are doing
+
+def add(num1, num2):
+    return num1 + num2
+
+addition = lambda num1, num2: num1 + num2 # Calculating the expression
+
+print("Value returned by add() function")
+print(add(2, 3))
+print("Value returned using lambda funtion")
+print(addition(2, 3))
