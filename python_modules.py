@@ -24,8 +24,21 @@
 # What is the use case
 # os is used to get information about your localhost / your machine such as name, path etc
 # Using a comma, we can use more than one Module on one line
+import math
+import os, sys, datetime
 
-import os, sys
+# Check how many CPUs I have
+print(os.cpu_count())
+
+# Check the date and time of today
+print(datetime.datetime.today())
+
+# % ? provides the remainder value left over
+print(math.remainder(1, 5))
+
+# Print out pi
+print(math.pi)
+
 working_dir = os.getcwd()
 print("This is your current working directory " + working_dir)
 
@@ -41,3 +54,4 @@ def current_working_directory():
     print("This is your current working directory ")
     return os.getcwd()
 print(current_working_directory())
+
