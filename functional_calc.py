@@ -1,6 +1,6 @@
-from oop_calc_exc import Simplecalc
+from oop_calc_exc import SimpleCalc
 
-class Functional_calc(Simplecalc):
+class FunctionalCalc(SimpleCalc):
 
     def __init__(self):
         super().__init__()
@@ -15,10 +15,10 @@ class Functional_calc(Simplecalc):
             return False
 
     def triangle(self, height, width):
-        return height * width/2
+        return (height * width) / 2
 
 
-fun_object = Functional_calc
+fun_object = FunctionalCalc()
 
 # Create a function for cm to inches
 

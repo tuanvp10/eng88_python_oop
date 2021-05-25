@@ -1,8 +1,7 @@
-class Simplecalc:
+class SimpleCalc:
 
     def add(self, value1, value2):
         return value1 + value2
-
 
     def subtract(self, value1, value2):
         return value1 - value2
@@ -13,5 +12,6 @@ class Simplecalc:
     def divide(self, value1, value2):
         return value1 / value2
 
-calc_object = Simplecalc
+calc_object = SimpleCalc()
+print(calc_object.add(3, 3))
 
