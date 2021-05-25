@@ -22,7 +22,7 @@ class Reptile(Animal):
 
 reptile_object = Reptile()
 
-print("This function is from Reptile class" + reptile_object.hunt())
-print("This function is Inherited from Animal class " + reptile_object.eat())
+# print("This function is from Reptile class" + reptile_object.hunt())
+# print("This function is Inherited from Animal class " + reptile_object.eat())
 
 # This is the amazing benefit of using OOP and Inheritance
